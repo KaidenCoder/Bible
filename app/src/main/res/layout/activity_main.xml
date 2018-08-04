@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/frame_hope"
+            android:layout_width="368dp"
+            android:layout_height="72dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="4dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            >
+
+            <TextView
+                android:id="@+id/hope"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="16dp"
+                android:background="?android:attr/selectableItemBackground"
+                android:paddingBottom="24dp"
+                android:paddingLeft="16dp"
+                android:paddingRight="100dp"
+                android:text="@string/verses_on_hope"
+                android:textAllCaps="true"
+                android:paddingStart="16dp"
+                android:paddingEnd="100dp" />
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/frame_love"
+            android:layout_width="@dimen/three_sixty_eight_dp"
+            android:layout_height="72dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="4dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/frame_hope">
+
+            <TextView
+                android:id="@+id/love"
+                android:layout_width="376dp"
+                android:layout_height="match_parent"
+                android:paddingTop="16dp"
+                android:background="?android:attr/selectableItemBackground"
+                android:paddingBottom="24dp"
+                android:paddingLeft="16dp"
+                android:paddingRight="150dp"
+                android:text="VERSES ON LOVE"
+                android:textAllCaps="true"
+                android:paddingStart="16dp"
+                android:paddingEnd="150dp" />
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/frame_anxiety"
+            android:layout_width="368dp"
+            android:layout_height="72dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="4dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/frame_love">
+
+            <TextView
+                android:id="@+id/anxiety"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="16dp"
+                android:background="?android:attr/selectableItemBackground"
+                android:paddingBottom="24dp"
+                android:paddingLeft="16dp"
+                android:paddingRight="100dp"
+                android:text="Verses on Anxiety"
+                android:textAllCaps="true"
+                android:paddingStart="16dp"
+                android:paddingEnd="100dp" />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/frame_fear"
+            android:layout_width="368dp"
+            android:layout_height="72dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="4dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/frame_anxiety">
+
+            <TextView
+                android:id="@+id/fear"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="16dp"
+                android:background="?android:attr/selectableItemBackground"
+                android:paddingBottom="24dp"
+                android:paddingLeft="16dp"
+                android:paddingRight="100dp"
+                android:text="Verses on Fear"
+                android:textAllCaps="true" />
+
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/frame_depression"
+            android:layout_width="368dp"
+            android:layout_height="72dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="4dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/frame_fear">
+
+            <TextView
+                android:id="@+id/depression"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="16dp"
+                android:background="?android:attr/selectableItemBackground"
+                android:paddingBottom="24dp"
+                android:paddingLeft="16dp"
+                android:paddingRight="100dp"
+                android:text="Verses on Depression"
+                android:textAllCaps="true"
+                android:paddingStart="16dp"
+                android:paddingEnd="100dp" />
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/frame_feelings"
+            android:layout_width="368dp"
+            android:layout_height="72dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="4dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/frame_depression">
+
+            <TextView
+                android:id="@+id/feelings"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="16dp"
+                android:background="?android:attr/selectableItemBackground"
+                android:paddingBottom="24dp"
+                android:paddingLeft="16dp"
+                android:paddingRight="100dp"
+                android:text="Verses on Feelings(Hurt)"
+                android:textAllCaps="true"
+                android:paddingStart="16dp"
+                android:paddingEnd="100dp" />
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/frame_friendship"
+            android:layout_width="368dp"
+            android:layout_height="72dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="4dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/frame_feelings">
+
+            <TextView
+                android:id="@+id/friendship"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="16dp"
+                android:background="?android:attr/selectableItemBackground"
+                android:paddingBottom="24dp"
+                android:paddingLeft="16dp"
+                android:paddingRight="100dp"
+                android:text="Verses on Friendship"
+                android:textAllCaps="true"
+                android:paddingStart="16dp"
+                android:paddingEnd="100dp" />
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/frame_diligence"
+            android:layout_width="368dp"
+            android:layout_height="72dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="4dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/frame_friendship">
+
+            <TextView
+                android:id="@+id/diligence"
+                android:layout_width="376dp"
+                android:layout_height="match_parent"
+                android:paddingTop="16dp"
+                android:background="?android:attr/selectableItemBackground"
+                android:paddingBottom="24dp"
+                android:paddingLeft="16dp"
+                android:paddingRight="150dp"
+                android:text="VERSES ON DILIGENCE"
+                android:textAllCaps="true"
+                android:paddingStart="16dp"
+                android:paddingEnd="150dp" />
+        </android.support.v7.widget.CardView>
+
+
+
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>
