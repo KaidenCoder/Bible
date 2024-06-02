@@ -1,9 +1,75 @@
-<mxfile host="app.diagrams.net" modified="2024-06-02T12:08:03.149Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" version="24.4.13" etag="ecO2LF7X-9IggiG-68wO" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-02T15:24:04.756Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="KDD8a7iPJfp_RwQxRfjd" version="24.4.13" type="github">
   <diagram name="Page-1" id="lOeY3BBdX5j0-6KoOF-3">
-    <mxGraphModel>
+    <mxGraphModel dx="895" dy="581" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="P-Q71VRiRIIZMjDo-W2U-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="P-Q71VRiRIIZMjDo-W2U-1" target="P-Q71VRiRIIZMjDo-W2U-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P-Q71VRiRIIZMjDo-W2U-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="P-Q71VRiRIIZMjDo-W2U-1" target="P-Q71VRiRIIZMjDo-W2U-19">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="20" y="180" />
+              <mxPoint x="20" y="550" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P-Q71VRiRIIZMjDo-W2U-1" value="Governing authority(rulers)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P-Q71VRiRIIZMjDo-W2U-2" value="Person" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P-Q71VRiRIIZMjDo-W2U-4" value="God is the only authority above Governing authority" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="80" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="P-Q71VRiRIIZMjDo-W2U-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="P-Q71VRiRIIZMjDo-W2U-5" target="P-Q71VRiRIIZMjDo-W2U-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P-Q71VRiRIIZMjDo-W2U-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="P-Q71VRiRIIZMjDo-W2U-5" target="P-Q71VRiRIIZMjDo-W2U-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P-Q71VRiRIIZMjDo-W2U-5" value="God" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="30" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P-Q71VRiRIIZMjDo-W2U-7" value="person is subjected to Governing Authority" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="240" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="P-Q71VRiRIIZMjDo-W2U-8" value="Existing Governing authority" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="150" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P-Q71VRiRIIZMjDo-W2U-10" value="God has instituted existing Governing authority" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="610" y="70" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="P-Q71VRiRIIZMjDo-W2U-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="P-Q71VRiRIIZMjDo-W2U-11" target="P-Q71VRiRIIZMjDo-W2U-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="340" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P-Q71VRiRIIZMjDo-W2U-11" value="Resistor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P-Q71VRiRIIZMjDo-W2U-14" value="resisting the authority means resisting God appointed authority" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="344" y="250" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="P-Q71VRiRIIZMjDo-W2U-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.66;entryY=1.017;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="P-Q71VRiRIIZMjDo-W2U-11" target="P-Q71VRiRIIZMjDo-W2U-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P-Q71VRiRIIZMjDo-W2U-18" value="resistor will incur judgment from above" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="414" y="305" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="P-Q71VRiRIIZMjDo-W2U-19" value="bad conduct" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P-Q71VRiRIIZMjDo-W2U-22" value="rulers terror to bad conduct" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="420" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="P-Q71VRiRIIZMjDo-W2U-23" value="fear the one who is in authority" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="290" width="140" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
